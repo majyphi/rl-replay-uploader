@@ -47,7 +47,7 @@ You can check the newly created ```replay-uploader.log```file to see if everythi
 
 ## Troubleshooting
 
-#####Duplication error
+##### Duplication error
 If you see an error with this pattern : 
 ```
 Error returned for [...].replay 
