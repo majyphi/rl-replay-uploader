@@ -1,4 +1,4 @@
-package fr.majestic.replay.uploader
+package fr.majestic.replay.uploader.properties
 
 import java.io.FileInputStream
 import java.util.Properties
@@ -16,7 +16,6 @@ object AutoUploaderProperties {
   def getProperties(args: Array[String]): AutoUploaderProperties = {
 
     if (args.isEmpty) throw new Exception("You need to specify a properties file!")
-
 
     try {
 

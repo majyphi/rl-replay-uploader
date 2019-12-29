@@ -1,6 +1,7 @@
 package fr.majestic.replay.uploader
 
 import com.typesafe.scalalogging.Logger
+import fr.majestic.replay.uploader.upload.UploadResponse
 
 object ErrorReporting {
 
