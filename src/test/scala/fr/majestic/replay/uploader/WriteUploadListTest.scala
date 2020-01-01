@@ -25,7 +25,7 @@ class WriteUploadListTest extends AnyFlatSpec {
   )
   val uploadResponses = List(uploadResponse)
 
-  "WriteUploadList" should "should create file with 1 entry 'JustUploadedReplay'" in {
+  "WriteUploadList" should "create file with 1 entry 'JustUploadedReplay'" in {
     Files.delete(filePath)
 
     WriteUploadList.saveUploadedReplays(uploadResponses)
