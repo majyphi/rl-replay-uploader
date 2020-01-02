@@ -57,5 +57,3 @@ It is a false negative. The match replay has already been uploaded in the past (
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Tests are indeed required, however as this piece of software is essentially I/O, a lot of mock will be needed.
