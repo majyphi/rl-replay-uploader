@@ -9,7 +9,7 @@ It uploads directly to ballchasing.com with the Rocket League built-in replay fi
 
 ## Requirements
 
-To install it, you will need to build the project with [maven](https://maven.apache.org/).
+To install it, you will need to build the project with [maven](https://maven.apache.org/) (Java 8 is advised).
 
 ## Installation
 
