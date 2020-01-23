@@ -25,12 +25,17 @@ mv target/rl-replay-uploader-1.0-jar-with-dependencies.jar rl-replay-uploader/
 ```
 - Fill in the properties needed in ```application.properties```:  
     - ```auth.key``` : Your upload token from ballchasing.com. Found [here](https://ballchasing.com/upload).  
-    - ```replay.folder``` : Rocket League replays folder. Usually (on Linux) : ```/home/<USERNAME>/.local/share/Rocket League/TAGame/Demos/```  
+    - ```replay.folder``` : Rocket League replays folder. Usually (on Linux) : ```/home/<USERNAME>/.local/share/Rocket League/TAGame/Demos/``` or if you are using SteamPlay+Proton : ```/your/steam/path/steamapps/compatdata/252950/pfx/drive_c/users/steamuser/My Documents/My Games/Rocket League/TAGame/Demos/```
     - ```uploaded.list``` : The file used to keep track of already uploaded replays. Can be kept at default.
 
 - Copy the "replay-uploader" folder into your home directory (or any convenient directory) :
 ```
 cp -r rl-replay-uploader ~/
+```
+
+- Make the run.sh script runnable :
+```
+chmod +x rl-replay-uploader/run.sh
 ```
 
 - Add post-command to Rocket League Steam launch :  
