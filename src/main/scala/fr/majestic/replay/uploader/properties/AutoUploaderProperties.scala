@@ -5,14 +5,6 @@ import java.util.Properties
 
 object AutoUploaderProperties {
 
-  /*
-  Expecting :
-  auth.key=bL8f7HL6PcpRXCAYxDcGqeK6c0VLH3svIx5vAc1e
-  replay.folder=/home/gn/.local/share/Rocket League/TAGame/Demos/
-  uploaded.list=src/main/resources/uploaded_list
-   */
-
-
   def getProperties(args: Array[String]): AutoUploaderProperties = {
 
     if (args.isEmpty) throw new Exception("You need to specify a properties file!")
